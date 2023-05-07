@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppAnotaciones</string>
+    <string name="strTarea">Tarea1</string>
+    <string name="strIngreseTarea">Ingrese la tarea</string>
+</resources>
