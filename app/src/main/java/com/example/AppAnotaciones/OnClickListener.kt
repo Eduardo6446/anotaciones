@@ -1,6 +1,6 @@
-package com.example.appanotificaciones
+package com.example.AppAnotaciones
 
-import com.example.appanotificaciones.model.Anotacion
+import com.example.AppAnotaciones.model.Anotacion
 
 interface OnClickListener {
 

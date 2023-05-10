@@ -1,11 +1,12 @@
-package com.example.appanotificaciones
+package com.example.AppAnotaciones
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.appanotificaciones.databinding.ActivityMainBinding
-import com.example.appanotificaciones.model.Anotacion
+import com.example.AppAnotaciones.model.Anotacion
+import com.example.appanotificaciones.R
 
 class activity_main : AppCompatActivity(), OnClickListener {
 
@@ -50,16 +51,13 @@ class activity_main : AppCompatActivity(), OnClickListener {
 
     private fun getData(){
         val data = mutableListOf(
-            Anotacion(1,"Tarea AWS"),
-            Anotacion(2,"Registrar notas"),
-            Anotacion(3,"Desarrollar app Anotciones"),
-            Anotacion(4,"Corregir avance laboral 6"),
-            Anotacion(5,"Realizar pedido de toner"),
-            Anotacion(6,"Continuara..."),
-            Anotacion(7,"Seguimos ...", true)
+            Anotacion(1,"Hamlet gatito"),
+            Anotacion(2,"edu"),
+            Anotacion(3,"kevin"),
+             true
         )
         data.forEach { Anotacionn ->
-            addAnotacion(Anotacionn)
+            addAnotacion(Anotacionn as Anotacion)
         }
     }
 

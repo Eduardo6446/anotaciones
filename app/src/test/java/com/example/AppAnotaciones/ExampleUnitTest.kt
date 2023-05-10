@@ -1,4 +1,4 @@
-package com.example.appanotificaciones
+package com.example.AppAnotaciones
 
 import org.junit.Test
 

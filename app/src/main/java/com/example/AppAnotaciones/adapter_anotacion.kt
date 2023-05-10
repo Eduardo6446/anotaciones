@@ -1,4 +1,4 @@
-package com.example.appanotificaciones
+package com.example.AppAnotaciones
 
 import android.content.Context
 import android.util.TypedValue
@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
 import androidx.recyclerview.widget.RecyclerView
+import com.example.AppAnotaciones.model.Anotacion
+import com.example.appanotificaciones.R
 import com.example.appanotificaciones.databinding.ItemNotasBinding
-import com.example.appanotificaciones.model.Anotacion
 
 class adapter_anotacion(
     var anotacionList: MutableList<Anotacion>,
